@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AI Projects</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Card Layout" />
+    <meta name="author" content="http://www.chavdamahesh.com/" />
+    <meta
+      name="description"
+      content="List of project create by Chavda mahesh."
+    />
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+
+  <body>
+    <h1 class="header">AI Projects</h1>
+    <div class="container">
+      <a href="{% url 'main' %}">
+        <div class="card">
+          <div class="imgBox">
+            <img src="{% static 'images/t1.jpeg' %}" alt="expanding card image" />
+          </div>
+          <div class="content">
+            <h2>Hand Detector</h2>
+            <p>AI Detector for hands</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="{% url 'face' %}">
+        <div class="card">
+          <div class="imgBox">
+            <img src="{% static 'images/t3.jpeg' %}" alt="form Label Input Image" />
+          </div>
+          <div class="content">
+            <h2>Face Detector</h2>
+            <p>AI Detector for faces</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="{% url 'facem' %}">
+        <div class="card">
+          <div class="imgBox">
+            <img src="{% static 'images/t4.jpeg' %}" alt="Todo List" />
+          </div>
+          <div class="content">
+            <h2>Face Mesh Detector</h2>
+            <p>AI Face Mesh Detector</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="{% url 'qrcode' %}">
+        <div class="card">
+          <div class="imgBox">
+            <img src="{% static 'images/t4.jpeg' %}" alt="Todo List" />
+          </div>
+          <div class="content">
+            <h2>Qrcode Reader</h2>
+            <p>AI Qrcode Reader</p>
+          </div>
+        </div>
+      </a>
+
+
+      <a href="{% url 'eye' %}">
+        <div class="card">
+          <div class="imgBox">
+            <img src="{% static 'images/t4.jpeg' %}" alt="Todo List" />
+          </div>
+          <div class="content">
+            <h2>eye Mouse</h2>
+            <p>AI eye Mouse</p>
+          </div>
+        </div>
+      </a>
+
+
+      <a href="{% url 'power' %}">
+        <div class="card">
+          <div class="imgBox">
+            <img src="{% static 'images/t4.jpeg' %}" alt="Todo List" />
+          </div>
+          <div class="content">
+            <h2>power</h2>
+            <p>AI power</p>
+          </div>
+        </div>
+      </a>
+
+
+
+
+      <a href="{% url 'key' %}">
+        <div class="card">
+          <div class="imgBox">
+            <img src="{% static 'images/t5.jpeg' %}" alt="Download Random Images" />
+          </div>
+          <div class="content">
+            <h2>AI Keyboard</h2>
+            <p>AI keyboard</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </body>
+</html>
